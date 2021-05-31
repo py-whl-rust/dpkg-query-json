@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 [[package]]
 name = "dpkg-query-json"
-version = "0.1.11"
+version = "0.1.12"
 dependencies = [
  "serde_json",
 ]

@@ -177,17 +177,6 @@ impl QueryFieldPackage{
         })
     }
 
-
-    /// Adds one to the number given.
-    ///
-    /// # Examples
-    ///
-    /// ```
-    /// let arg = 5;
-    /// let answer = my_crate::add_one(arg);
-    ///
-    /// assert_eq!(6, answer);
-    /// ```
     pub fn json_string(mut self) -> String {
         serde_json::to_string(&self.parse_to_json().unwrap_or_else(|err|{
             let mut x = Map::new();

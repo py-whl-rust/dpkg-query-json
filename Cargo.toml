@@ -1,10 +1,12 @@
 [package]
 name = "dpkg-query-json"
-version = "0.1.11"
+version = "0.1.12"
 authors = ["xxx"]
 edition = "2018"
 description = "A crate for parsing \"dpkg-query\" in json. Debian/Ubuntu."
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/py-whl-rust/dpkg-query-json"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
