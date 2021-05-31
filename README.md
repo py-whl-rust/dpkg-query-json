@@ -5,7 +5,7 @@ A crate for parsing “dpkg-query” in json.
 
 ## Examples
 
-```Rust
+```rust
 use dpkg_query_json::QueryFieldPackage;
 let fields = vec![String::from("Package"),
 String::from("Version"),
@@ -16,7 +16,7 @@ QueryFieldPackage::new(fields, packages).json(); //Map<String, Value>
 // {"dpkg": Object({"Architecture": String("amd64"), "Version": String("1.19.7ubuntu3")})}
 ```
 
-```Rust
+```rust
 use dpkg_query_json::QueryFieldPackage;
 let fields = vec![String::from("Package"),
 String::from("Version"),
